@@ -4,8 +4,12 @@ using System.Text;
 
 namespace OCP;
 
-public class PayPalPayment
+public class PayPalPayment: IPaymentProcessor
 {
+    public void ProcessPayment(int price)
+    {
+        Console.WriteLine($"Process credit card payment for price :{price}");
 
+    }
 
 }

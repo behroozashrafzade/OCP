@@ -4,7 +4,7 @@ namespace OCP;
 
 public class Payment
 {
-    public void ProessPayment(PaymentMethod method , int perice)
+    public void ProcessPayment(PaymentMethod method , int perice)
     {
         switch (method)
         {
